@@ -1,0 +1,92 @@
+/* Signup.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-box {
+    width: 100%;
+    max-width: 350px; /* Adjust width as needed */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center-align the text for all children */
+  }
+  
+  .signup-box h1 {
+    font-size: 2.5rem; /* Large font size for heading */
+    color: #333; /* Dark color for text */
+    margin-bottom: 1rem; /* Space below the heading */
+    font-weight: 300; /* Lighter font-weight */
+    text-transform: uppercase; /* UPPERCASE LETTERS */
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form > div {
+    margin-bottom: 1rem; /* Spacing between form elements */
+  }
+  
+  .signup-form label {
+    display: none; /* Since the labels were empty and for accessibility you may want to include labels */
+  }
+  
+  .signup-form input {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .signup-form button {
+    width: 300px; /* Match button width to input fields */
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .signup-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-form p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .secondary-action {
+    width: 300px; /* Match button width to input fields */
+    background-color: transparent;
+    color: #007bff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .secondary-action:hover {
+    color: #0056b3;
+  }
+  

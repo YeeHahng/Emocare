@@ -1,0 +1,88 @@
+/* Login.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #e9ecef; /* Light gray background */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 350px; /* Adjust width as needed */
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center-align the text for all children */
+  }
+  
+  .login-form h1 {
+    font-size: 2.5rem; /* Large font size for heading */
+    color: #333; /* Dark color for text */
+    margin-bottom: 1rem; /* Space below the heading */
+    font-weight: 300; /* Lighter font-weight */
+    text-transform: uppercase; /* UPPERCASE LETTERS */
+  }
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form > div {
+    margin-bottom: 1rem; /* Spacing between form elements */
+  }
+  
+  .login-form label {
+    margin-bottom: 0.5rem;
+    color: #495057;
+  }
+  
+  .login-form input {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  .login-form button {
+    width: 300px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+  }
+
+  .secondary-action{
+    width: 300px;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
